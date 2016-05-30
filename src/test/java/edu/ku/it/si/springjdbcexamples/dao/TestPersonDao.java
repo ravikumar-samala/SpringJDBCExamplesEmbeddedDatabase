@@ -42,7 +42,7 @@ public class TestPersonDao {
 		
 		String firstName = personDao.getFirstName("Phillips");
 		
-		logger.info("First name of LG1 is " + firstName);
+		logger.info("First name of LG2 is " + firstName);
 		
 		assertEquals("First name not Bruce", "Bruce", firstName);
 		
